@@ -13,6 +13,7 @@ export default function Weather() {
         humidity: 25,
     });
 
+    
     let updates = (data) => {
         setWeather(data);
     }
